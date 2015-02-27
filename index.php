@@ -11,10 +11,10 @@ include "app/config.php";
 include "app/detect.php";
 
 if ($page_name=='') {
-	include $browser_t.'/index.html';
+	include $browser_t.'/index.php';
 	}
-elseif ($page_name=='index.html') {
-	include $browser_t.'/index.html';
+elseif ($page_name=='index.php') {
+	include $browser_t.'/index.php';
 	}
 elseif ($page_name=='404.html') {
 	include $browser_t.'/404.html';

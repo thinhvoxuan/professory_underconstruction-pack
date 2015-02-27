@@ -11,4 +11,7 @@ $current_page_uri = $_SERVER['REQUEST_URI'];
 $part_url = explode("/", $current_page_uri);
 $page_name = end($part_url);
 $email_id = "w3layouts@gmail.com";
+
+
+$site_name = "Thinh VoXuan's page";
 ?>

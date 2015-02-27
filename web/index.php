@@ -54,7 +54,7 @@ $(document).ready(function(){
 </head>
 <body>
 <div class="wrap">
-	<h1>company name</h1>
+	<h1><?php echo $site_name ?></h1>
 <div class="main">
 	<h2>our website is on progressive</h2>
 	<div class="banner">
